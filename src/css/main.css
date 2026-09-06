@@ -1,1 +1,46 @@
-/* Your CSS here. */
+body {
+  margin: 8px;
+  background-color: white;
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.profile-card {
+  box-sizing: border-box;
+  min-height: calc(100vh - 16px);
+  padding: 18px;
+  background-color: #666666;
+}
+
+.profile-image {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 25px 0 22px;
+  text-align: center;
+}
+
+.email {
+  margin: 0 0 22px;
+  font-style: italic;
+  text-align: center;
+}
+
+.github-link {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 24px;
+  color: #4b0082;
+  font-weight: bold;
+}
+
+.biography {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
